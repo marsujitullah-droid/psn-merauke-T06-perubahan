@@ -1,0 +1,13 @@
+blok,pasangan,n01,n10,p_nilai,signifikan
+E,Embedding AlphaEarth vs CVA (S2),125,25,0.0,ya
+E,Embedding AlphaEarth vs dNDVI (S2),132,41,0.0,ya
+E,Embedding AlphaEarth vs PCA + k-means (S2),231,58,0.0,ya
+E,Embedding AlphaEarth vs Isolation Forest (S2),133,26,0.0,ya
+E,Embedding AlphaEarth vs Log-ratio (S1),1067,66,0.0,ya
+E,Embedding AlphaEarth vs Ensembel,60,15,0.0,ya
+F,Embedding AlphaEarth vs CVA (S2),819,114,0.0,ya
+F,Embedding AlphaEarth vs dNDVI (S2),756,120,0.0,ya
+F,Embedding AlphaEarth vs PCA + k-means (S2),857,123,0.0,ya
+F,Embedding AlphaEarth vs Isolation Forest (S2),769,99,0.0,ya
+F,Embedding AlphaEarth vs Log-ratio (S1),819,81,0.0,ya
+F,Embedding AlphaEarth vs Ensembel,256,179,0.00026,ya

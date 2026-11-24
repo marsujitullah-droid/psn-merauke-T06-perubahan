@@ -1,0 +1,13 @@
+blok,metode,ambang
+E,CVA (S2),0.0917
+E,dNDVI (S2),0.2372
+E,Log-ratio (S1),2.1422
+E,Embedding AlphaEarth,0.238
+E,Isolation Forest (S2),0.4595
+E,Ensembel,0.3517
+F,CVA (S2),0.126
+F,dNDVI (S2),0.1063
+F,Log-ratio (S1),1.9602
+F,Embedding AlphaEarth,0.1103
+F,Isolation Forest (S2),0.4685
+F,Ensembel,0.2534

@@ -1,0 +1,519 @@
+{
+  "blok": [
+    {
+      "peringkat": 1,
+      "lon": 140.546,
+      "lat": -8.2322,
+      "loss_2024_2025_ha": 7935.9,
+      "keterangan": "dipakai Blok A"
+    },
+    {
+      "peringkat": 2,
+      "lon": 140.7276,
+      "lat": -8.2324,
+      "loss_2024_2025_ha": 6960.6,
+      "keterangan": "dipakai Blok B"
+    },
+    {
+      "peringkat": 3,
+      "lon": 140.7279,
+      "lat": -7.8706,
+      "loss_2024_2025_ha": 4737.3,
+      "keterangan": "dipakai Blok C"
+    },
+    {
+      "peringkat": 4,
+      "lon": 139.2781,
+      "lat": -7.5055,
+      "loss_2024_2025_ha": 2743.7,
+      "keterangan": "dipakai Blok D"
+    },
+    {
+      "peringkat": 5,
+      "lon": 139.0969,
+      "lat": -7.5047,
+      "loss_2024_2025_ha": 935.6,
+      "keterangan": "Blok E (T06)"
+    },
+    {
+      "peringkat": 6,
+      "lon": 140.7285,
+      "lat": -6.7851,
+      "loss_2024_2025_ha": 721.4,
+      "keterangan": "Blok F (T06)"
+    },
+    {
+      "peringkat": 7,
+      "lon": 140.3641,
+      "lat": -8.4129,
+      "loss_2024_2025_ha": 435.8,
+      "keterangan": ""
+    },
+    {
+      "peringkat": 8,
+      "lon": 140.3644,
+      "lat": -8.232,
+      "loss_2024_2025_ha": 384.8,
+      "keterangan": ""
+    },
+    {
+      "peringkat": 9,
+      "lon": 139.6405,
+      "lat": -7.5067,
+      "loss_2024_2025_ha": 336.1,
+      "keterangan": ""
+    },
+    {
+      "peringkat": 10,
+      "lon": 139.4593,
+      "lat": -7.5061,
+      "loss_2024_2025_ha": 305.8,
+      "keterangan": ""
+    }
+  ],
+  "hansen_loss_ha": {
+    "E": 935.6168913270524,
+    "F": 721.4241857849142
+  },
+  "n_berlabel": {
+    "E_0": 1500,
+    "E_1": 1500,
+    "F_0": 1500,
+    "F_1": 1500
+  },
+  "metrik_rata2": [
+    {
+      "metode": "CVA (S2)",
+      "presisi": 0.7802,
+      "recall": 0.7571,
+      "F1": 0.7624,
+      "OA": 0.7748,
+      "kappa": 0.5522,
+      "AUC": 0.8348,
+      "F1_ambang_terbaik": 0.8268,
+      "cakupan_persen": 94.8334
+    },
+    {
+      "metode": "dNDVI (S2)",
+      "presisi": 0.794,
+      "recall": 0.8014,
+      "F1": 0.7977,
+      "OA": 0.7891,
+      "kappa": 0.5772,
+      "AUC": 0.8214,
+      "F1_ambang_terbaik": 0.8071,
+      "cakupan_persen": 94.8334
+    },
+    {
+      "metode": "PCA + k-means (S2)",
+      "presisi": 0.7576,
+      "recall": 0.7842,
+      "F1": 0.7706,
+      "OA": 0.7572,
+      "kappa": 0.5127,
+      "AUC": 0.813,
+      "F1_ambang_terbaik": 0.7987,
+      "cakupan_persen": 94.8334
+    },
+    {
+      "metode": "Isolation Forest (S2)",
+      "presisi": 0.8073,
+      "recall": 0.7306,
+      "F1": 0.753,
+      "OA": 0.78,
+      "kappa": 0.5648,
+      "AUC": 0.855,
+      "F1_ambang_terbaik": 0.8285,
+      "cakupan_persen": 94.8334
+    },
+    {
+      "metode": "Log-ratio (S1)",
+      "presisi": 0.7768,
+      "recall": 0.378,
+      "F1": 0.5085,
+      "OA": 0.6348,
+      "kappa": 0.2697,
+      "AUC": 0.7176,
+      "F1_ambang_terbaik": 0.6914,
+      "cakupan_persen": 100.0
+    },
+    {
+      "metode": "Embedding AlphaEarth",
+      "presisi": 0.9446,
+      "recall": 0.9057,
+      "F1": 0.9216,
+      "OA": 0.9246,
+      "kappa": 0.8494,
+      "AUC": 0.9767,
+      "F1_ambang_terbaik": 0.9526,
+      "cakupan_persen": 100.0
+    },
+    {
+      "metode": "Ensembel",
+      "presisi": 0.8596,
+      "recall": 0.967,
+      "F1": 0.9101,
+      "OA": 0.9044,
+      "kappa": 0.8086,
+      "AUC": 0.9566,
+      "F1_ambang_terbaik": 0.9162,
+      "cakupan_persen": 100.0
+    }
+  ],
+  "metrik_per_blok": [
+    {
+      "blok": "E",
+      "metode": "CVA (S2)",
+      "presisi": 0.8705,
+      "recall": 0.9767,
+      "F1": 0.9205,
+      "OA": 0.9157,
+      "kappa": 0.8313,
+      "AUC": 0.9618,
+      "F1_ambang_terbaik": 0.9273,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "E",
+      "metode": "dNDVI (S2)",
+      "presisi": 0.9198,
+      "recall": 0.9173,
+      "F1": 0.9186,
+      "OA": 0.9187,
+      "kappa": 0.8373,
+      "AUC": 0.9571,
+      "F1_ambang_terbaik": 0.9298,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "E",
+      "metode": "PCA + k-means (S2)",
+      "presisi": 0.8862,
+      "recall": 0.898,
+      "F1": 0.8921,
+      "OA": 0.8913,
+      "kappa": 0.7827,
+      "AUC": 0.9564,
+      "F1_ambang_terbaik": 0.8986,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "E",
+      "metode": "Isolation Forest (S2)",
+      "presisi": 0.866,
+      "recall": 0.978,
+      "F1": 0.9186,
+      "OA": 0.9133,
+      "kappa": 0.8267,
+      "AUC": 0.9601,
+      "F1_ambang_terbaik": 0.9222,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "E",
+      "metode": "Log-ratio (S1)",
+      "presisi": 0.7403,
+      "recall": 0.3553,
+      "F1": 0.4802,
+      "OA": 0.6153,
+      "kappa": 0.2307,
+      "AUC": 0.7128,
+      "F1_ambang_terbaik": 0.6976,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "E",
+      "metode": "Embedding AlphaEarth",
+      "presisi": 0.9175,
+      "recall": 0.9867,
+      "F1": 0.9509,
+      "OA": 0.949,
+      "kappa": 0.898,
+      "AUC": 0.9665,
+      "F1_ambang_terbaik": 0.9516,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "E",
+      "metode": "Ensembel",
+      "presisi": 0.8894,
+      "recall": 0.9913,
+      "F1": 0.9376,
+      "OA": 0.934,
+      "kappa": 0.868,
+      "AUC": 0.9593,
+      "F1_ambang_terbaik": 0.9403,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "F",
+      "metode": "CVA (S2)",
+      "presisi": 0.6899,
+      "recall": 0.5375,
+      "F1": 0.6043,
+      "OA": 0.6338,
+      "kappa": 0.2732,
+      "AUC": 0.7077,
+      "F1_ambang_terbaik": 0.7262,
+      "cakupan_persen": 89.6667
+    },
+    {
+      "blok": "F",
+      "metode": "dNDVI (S2)",
+      "presisi": 0.6683,
+      "recall": 0.6855,
+      "F1": 0.6768,
+      "OA": 0.6595,
+      "kappa": 0.3171,
+      "AUC": 0.6856,
+      "F1_ambang_terbaik": 0.6844,
+      "cakupan_persen": 89.6667
+    },
+    {
+      "blok": "F",
+      "metode": "PCA + k-means (S2)",
+      "presisi": 0.6291,
+      "recall": 0.6705,
+      "F1": 0.6491,
+      "OA": 0.623,
+      "kappa": 0.2428,
+      "AUC": 0.6696,
+      "F1_ambang_terbaik": 0.6988,
+      "cakupan_persen": 89.6667
+    },
+    {
+      "blok": "F",
+      "metode": "Isolation Forest (S2)",
+      "presisi": 0.7486,
+      "recall": 0.4832,
+      "F1": 0.5873,
+      "OA": 0.6468,
+      "kappa": 0.3029,
+      "AUC": 0.75,
+      "F1_ambang_terbaik": 0.7348,
+      "cakupan_persen": 89.6667
+    },
+    {
+      "blok": "F",
+      "metode": "Log-ratio (S1)",
+      "presisi": 0.8133,
+      "recall": 0.4007,
+      "F1": 0.5368,
+      "OA": 0.6543,
+      "kappa": 0.3087,
+      "AUC": 0.7225,
+      "F1_ambang_terbaik": 0.6851,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "F",
+      "metode": "Embedding AlphaEarth",
+      "presisi": 0.9717,
+      "recall": 0.8247,
+      "F1": 0.8922,
+      "OA": 0.9003,
+      "kappa": 0.8007,
+      "AUC": 0.9869,
+      "F1_ambang_terbaik": 0.9535,
+      "cakupan_persen": 100.0
+    },
+    {
+      "blok": "F",
+      "metode": "Ensembel",
+      "presisi": 0.8298,
+      "recall": 0.9427,
+      "F1": 0.8826,
+      "OA": 0.8747,
+      "kappa": 0.7493,
+      "AUC": 0.9538,
+      "F1_ambang_terbaik": 0.892,
+      "cakupan_persen": 100.0
+    }
+  ],
+  "mcnemar": [
+    {
+      "blok": "E",
+      "pasangan": "Embedding AlphaEarth vs CVA (S2)",
+      "n01": 125,
+      "n10": 25,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "E",
+      "pasangan": "Embedding AlphaEarth vs dNDVI (S2)",
+      "n01": 132,
+      "n10": 41,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "E",
+      "pasangan": "Embedding AlphaEarth vs PCA + k-means (S2)",
+      "n01": 231,
+      "n10": 58,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "E",
+      "pasangan": "Embedding AlphaEarth vs Isolation Forest (S2)",
+      "n01": 133,
+      "n10": 26,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "E",
+      "pasangan": "Embedding AlphaEarth vs Log-ratio (S1)",
+      "n01": 1067,
+      "n10": 66,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "E",
+      "pasangan": "Embedding AlphaEarth vs Ensembel",
+      "n01": 60,
+      "n10": 15,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "F",
+      "pasangan": "Embedding AlphaEarth vs CVA (S2)",
+      "n01": 819,
+      "n10": 114,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "F",
+      "pasangan": "Embedding AlphaEarth vs dNDVI (S2)",
+      "n01": 756,
+      "n10": 120,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "F",
+      "pasangan": "Embedding AlphaEarth vs PCA + k-means (S2)",
+      "n01": 857,
+      "n10": 123,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "F",
+      "pasangan": "Embedding AlphaEarth vs Isolation Forest (S2)",
+      "n01": 769,
+      "n10": 99,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "F",
+      "pasangan": "Embedding AlphaEarth vs Log-ratio (S1)",
+      "n01": 819,
+      "n10": 81,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "blok": "F",
+      "pasangan": "Embedding AlphaEarth vs Ensembel",
+      "n01": 256,
+      "n10": 179,
+      "p_nilai": 0.00026,
+      "signifikan": "ya"
+    }
+  ],
+  "luas_blokE": [
+    {
+      "blok": "E",
+      "metode": "CVA (S2)",
+      "luas_perubahan_ha": 6035.6,
+      "luas_hansen_ha": 935.6
+    },
+    {
+      "blok": "E",
+      "metode": "Log-ratio (S1)",
+      "luas_perubahan_ha": 6332.0,
+      "luas_hansen_ha": 935.6
+    },
+    {
+      "blok": "E",
+      "metode": "Embedding AlphaEarth",
+      "luas_perubahan_ha": 3788.4,
+      "luas_hansen_ha": 935.6
+    },
+    {
+      "blok": "E",
+      "metode": "Ensembel",
+      "luas_perubahan_ha": 5279.5,
+      "luas_hansen_ha": 935.6
+    }
+  ],
+  "ambang": [
+    {
+      "blok": "E",
+      "metode": "CVA (S2)",
+      "ambang": 0.0917
+    },
+    {
+      "blok": "E",
+      "metode": "dNDVI (S2)",
+      "ambang": 0.2372
+    },
+    {
+      "blok": "E",
+      "metode": "Log-ratio (S1)",
+      "ambang": 2.1422
+    },
+    {
+      "blok": "E",
+      "metode": "Embedding AlphaEarth",
+      "ambang": 0.238
+    },
+    {
+      "blok": "E",
+      "metode": "Isolation Forest (S2)",
+      "ambang": 0.4595
+    },
+    {
+      "blok": "E",
+      "metode": "Ensembel",
+      "ambang": 0.3517
+    },
+    {
+      "blok": "F",
+      "metode": "CVA (S2)",
+      "ambang": 0.126
+    },
+    {
+      "blok": "F",
+      "metode": "dNDVI (S2)",
+      "ambang": 0.1063
+    },
+    {
+      "blok": "F",
+      "metode": "Log-ratio (S1)",
+      "ambang": 1.9602
+    },
+    {
+      "blok": "F",
+      "metode": "Embedding AlphaEarth",
+      "ambang": 0.1103
+    },
+    {
+      "blok": "F",
+      "metode": "Isolation Forest (S2)",
+      "ambang": 0.4685
+    },
+    {
+      "blok": "F",
+      "metode": "Ensembel",
+      "ambang": 0.2534
+    }
+  ]
+}

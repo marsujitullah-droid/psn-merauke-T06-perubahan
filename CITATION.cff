@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Label-free land-clearing detection in the Merauke PSN area: optical, radar, foundation-model embedding and ensemble methods (T06): code and data"
+type: software
+authors:
+  - family-names: "Marsujitullah"
+    affiliation: "[INSTITUSI]"
+version: "1.0.0"
+license: MIT
+keywords:
+  - unsupervised change detection
+  - change vector analysis
+  - Isolation Forest
+  - Sentinel-1
+  - AlphaEarth
+  - Google Earth Engine
+  - Merauke
