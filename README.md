@@ -1,6 +1,6 @@
 # Label-Free Land-Clearing Detection in the Merauke PSN Area (T06)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxx)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24505783.svg)](https://doi.org/10.5281/zenodo.24505783)
 
 Code, data and results for the study *"Detecting Land Clearing without Training Data in the Merauke National Strategic Project, Indonesia: Comparing Optical, Radar, Foundation-Model Embedding and Ensemble Methods"*.
 
