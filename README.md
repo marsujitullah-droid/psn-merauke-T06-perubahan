@@ -1,5 +1,7 @@
 # Label-Free Land-Clearing Detection in the Merauke PSN Area (T06)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxx)
+
 Code, data and results for the study *"Detecting Land Clearing without Training Data in the Merauke National Strategic Project, Indonesia: Comparing Optical, Radar, Foundation-Model Embedding and Ensemble Methods"*.
 
 > **Ringkasan (ID):** Repositori ini berisi notebook, sampel, dan tabel hasil untuk perbandingan tujuh metode deteksi pembukaan lahan tanpa data latih (CVA, dNDVI, PCA + k-means, Isolation Forest, log-ratio Sentinel-1, jarak embedding AlphaEarth, ensembel) di Blok E dan F kawasan PSN Merauke, 2023 vs 2025. Semua tabel dan gambar tersedia dalam versi Indonesia (_ID) dan Inggris (_EN).
